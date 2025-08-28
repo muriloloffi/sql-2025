@@ -1,6 +1,6 @@
-SELECT 
+SELECT
        sum(QtdePontos),
-       
+
        sum(CASE
            WHEN QtdePontos > 0 THEN QtdePontos
            END) AS qtdePontosPositivos,
